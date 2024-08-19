@@ -17,6 +17,8 @@ public class EnvConfig {
     //     return dotenv.get("security.jwt.secret-key");
     // }
 
+    // comment
+
     public String getSsId(){
         return dotenv.get("ssid");
     }
