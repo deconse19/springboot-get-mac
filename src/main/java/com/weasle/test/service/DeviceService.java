@@ -5,12 +5,9 @@ import org.springframework.stereotype.Service;
 import com.weasle.test.entity.Device;
 import com.weasle.test.repo.DeviceRepository;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 @Service
 public class DeviceService {
